@@ -3,8 +3,7 @@ name: Capitol Trades Monitor
 on:
   schedule:
     - cron: '*/5 * * * *'
-  
-  # Cho phép chạy thủ công
+
   workflow_dispatch:
 
 jobs:
@@ -41,7 +40,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python capitol_trades.py
+          python main.py
       
       - name: Upload trade files
         uses: actions/upload-artifact@v4

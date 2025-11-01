@@ -13,16 +13,28 @@ jobs:
     
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
+      
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
       
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+      
+      - name: Download previous trades
+        uses: actions/download-artifact@v4
+        with:
+          name: trade-files
+        continue-on-error: true
       
       - name: Run monitor
         env:
@@ -32,8 +44,9 @@ jobs:
           python capitol_trades.py
       
       - name: Upload trade files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: trade-files
           path: trades_*.json
           retention-days: 7
+          overwrite: true

@@ -2,50 +2,51 @@ name: Capitol Trades Monitor
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
-
+    - cron: '*/0.5 * * * *'
   workflow_dispatch:
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: write
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
-      - name: Cache dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-      
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-      
-      - name: Download previous trades
-        uses: actions/download-artifact@v4
-        with:
-          name: trade-files
-        continue-on-error: true
       
       - name: Run monitor
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python main.py
+          python capitol_trades.py
       
-      - name: Upload trade files
-        uses: actions/upload-artifact@v4
-        with:
-          name: trade-files
-          path: trades_*.json
-          retention-days: 7
-          overwrite: true
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          
+          # Add file JSON
+          git add trades_*.json
+          
+          # Commit nếu có thay đổi
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update trades data - $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+            echo "Changes committed and pushed"
+          fi

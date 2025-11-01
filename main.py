@@ -6,6 +6,9 @@ import os
 import glob
 import hashlib
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
@@ -152,49 +155,35 @@ def parse_money(s):
             return 0
 
 def create_trade_id(trade):
-    """Create unique ID for a trade"""
-    # Combine important fields to create a unique ID
+    """Create a unique ID for a trade"""
     id_string = f"{trade['politician']}|{trade['ticker']}|{trade['traded']}|{trade['type']}|{trade['size']}|{trade['price']}"
-    # Create hash
     return hashlib.md5(id_string.encode()).hexdigest()
 
 def load_latest_trades():
-    """Load trades from the latest JSON file"""
+    """Load trades from JSON file (if exists)"""
     try:
-        # Find all trade files
-        trade_files = glob.glob('trades_*.json')
-        
-        if not trade_files:
-            print("📂 No previous trade files found")
+        if os.path.exists('trades.json'):
+            print("📂 Loading previous trades from trades.json")
+            with open('trades.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                old_trades = data.get('trades', [])
+                print(f"✅ Loaded {len(old_trades)} previous trades")
+                return old_trades
+        else:
+            print("📂 No previous trades file found")
             return []
-
-        # Sort and get the latest file
-        trade_files.sort()
-        latest_file = trade_files[-1]
-        
-        print(f"📂 Loading latest file: {latest_file}")
-        
-        with open(latest_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            old_trades = data.get('trades', [])
-            print(f"✅ Loaded {len(old_trades)} trades from {latest_file}")
-            return old_trades
-    
     except Exception as e:
-        print(f"❌ Error loading latest trades: {e}")
+        print(f"❌ Error loading previous trades: {e}")
         return []
 
 def find_new_trades(current_trades, old_trades):
     """Compare and find new trades"""
-
     if not old_trades:
         print("🆕 No previous trades - all trades are new!")
         return current_trades
-
-    # Create a set of old trade IDs
+    
     old_ids = set(create_trade_id(trade) for trade in old_trades)
-
-    # Find new trades (IDs not in old_ids)
+    
     new_trades = []
     for trade in current_trades:
         trade_id = create_trade_id(trade)
@@ -205,14 +194,8 @@ def find_new_trades(current_trades, old_trades):
     
     return new_trades
 
-def save_to_json_with_rotation(trades, max_files=3):
-    """Save JSON and keep only the latest max_files files"""
-
-    # Create filename with timestamp
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    filename = f'trades_{timestamp}.json'
-
-    # Save new file
+def save_to_json(trades, filename='trades.json'):
+    """Save to JSON - ONLY 1 FILE"""
     data = {
         'updated_at': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         'total_trades': len(trades),
@@ -224,34 +207,15 @@ def save_to_json_with_rotation(trades, max_files=3):
     
     print(f"💾 Saved {len(trades)} trades to {filename}")
 
-    # Find all trade files
-    trade_files = glob.glob('trades_*.json')
-    trade_files.sort()
-
-    # If > max_files, delete old files
-    if len(trade_files) > max_files:
-        files_to_delete = trade_files[:-max_files]
-        
-        for old_file in files_to_delete:
-            try:
-                os.remove(old_file)
-                print(f"🗑️  Deleted old file: {old_file}")
-            except Exception as e:
-                print(f"❌ Error deleting {old_file}: {e}")
-    
-    return filename
-
 def send_telegram_new_trades(new_trades):
     """Send Telegram only new trades"""
-
     if not new_trades:
         print("✅ No new trades to send")
         return
 
     message = f"🔔 <b>{len(new_trades)} NEW TRADE{'S' if len(new_trades) > 1 else ''} ALERT!</b>\n"
     message += f"🕐 {datetime.now().strftime('%d/%m/%Y %H:%M')}\n\n"
-
-    # Send a maximum of 10 new trades
+    
     for i, t in enumerate(new_trades[:10], 1):
         message += f"<b>#{i}. {t['politician']}</b>\n"
         message += f"🏛 {t['party']} | {t['chamber']} | {t['state']}\n"
@@ -269,7 +233,7 @@ def send_telegram_new_trades(new_trades):
         message += f"👤 {t['owner']}\n\n"
     
     if len(new_trades) > 10:
-        message += f"... +{len(new_trades) - 10} more new trades\n\n"
+        message += f"... +{len(new_trades) - 10} more\n\n"
     
     message += "🔗 capitoltrades.com/trades"
     
@@ -292,19 +256,19 @@ def send_telegram_new_trades(new_trades):
 
 def main():
     print("=" * 100)
-    print("🚀 CAPITOL TRADES SCRAPER - NEW TRADES DETECTOR")
+    print("🚀 CAPITOL TRADES MONITOR")
     print("=" * 100)
-
-    # Step 1: Load trades from the latest JSON file
+    
+    # Step 1: Load previous trades
     print("\n📂 STEP 1: Loading previous trades...")
     old_trades = load_latest_trades()
-
+    
     # Step 2: Fetch current trades
     print("\n🔄 STEP 2: Fetching current trades...")
     current_trades = fetch_trades(limit=20)
     
     if not current_trades:
-        print("\n❌ No trades found!")
+        print("\n❌ No trades fetched!")
         return
 
     print(f"✅ Found {len(current_trades)} current trades")
@@ -312,8 +276,8 @@ def main():
     # Step 3: Compare and find new trades
     print("\n🔍 STEP 3: Comparing trades...")
     new_trades = find_new_trades(current_trades, old_trades)
-
-    # Step 4: Send Telegram if there are new trades
+    
+    # Step 4: Send Telegram if new trades
     print("\n📱 STEP 4: Sending notifications...")
     if new_trades:
         print(f"🆕 NEW TRADES DETECTED:")
@@ -324,9 +288,9 @@ def main():
     else:
         print("✅ No new trades - no notification sent")
     
-    # Step 5: Save new file
-    print("\n💾 STEP 5: Saving new file...")
-    save_to_json_with_rotation(current_trades, max_files=3)
+    # Step 5: Save current trades
+    print("\n💾 STEP 5: Saving current trades...")
+    save_to_json(current_trades, 'trades.json')
 
 if __name__ == "__main__":
     main()

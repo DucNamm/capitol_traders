@@ -1,0 +1,39 @@
+name: Capitol Trades Monitor
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  
+  # Cho phép chạy thủ công
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Run monitor
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python capitol_trades.py
+      
+      - name: Upload trade files
+        uses: actions/upload-artifact@v3
+        with:
+          name: trade-files
+          path: trades_*.json
+          retention-days: 7

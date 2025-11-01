@@ -7,8 +7,8 @@ import glob
 import hashlib
 import os
 
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '8276825017:AAHvBRs08Kg6AdlzMUXV3Hqy1BMX0NROZ48')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '7371069957')
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
 def fetch_trades(limit=12):
     url = "https://www.capitoltrades.com/trades"

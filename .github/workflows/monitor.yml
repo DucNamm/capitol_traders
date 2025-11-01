@@ -2,7 +2,7 @@ name: Capitol Trades Monitor
 
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -15,13 +15,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
       
       - name: Install dependencies
         run: |
@@ -33,20 +32,28 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python main.py
+        continue-on-error: false
       
-      - name: Commit and push if changed
+      - name: Show generated files
+        if: always()
         run: |
+          echo "=== Files in directory ==="
+          ls -la *.json 2>/dev/null || echo "No JSON files found"
+      
+      - name: Commit and push changes
+        run: |
+          # Configure git
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
           
-          # Add file JSON
-          git add trades_*.json
+          # Add all JSON files (if any)
+          git add *.json 2>/dev/null || true
           
-          # Commit nếu có thay đổi
+          # Check if there are any changes
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "✅ No changes to commit"
           else
-            git commit -m "Update trades data - $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "📊 Update trades data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git push
-            echo "Changes committed and pushed"
+            echo "✅ Changes pushed successfully"
           fi

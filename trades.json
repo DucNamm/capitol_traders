@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-11-04 06:25:43",
+  "updated_at": "2025-11-04 06:49:43",
   "total_trades": 12,
   "trades": [
     {
@@ -35,6 +35,40 @@
       "size": "15K–50K",
       "value": 32500,
       "price": "$216.59"
+    },
+    {
+      "politician": "Bernie Moreno",
+      "party": "Republican",
+      "chamber": "Senate",
+      "state": "OH",
+      "traded_issuer": "GS FINANCE CORP",
+      "ticker": "N/A",
+      "sector": "N/A",
+      "published": "17:01Yesterday",
+      "traded": "22 Oct2025",
+      "filed_after": "12 days",
+      "owner": "Self",
+      "type": "Buy",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "N/A"
+    },
+    {
+      "politician": "Bernie Moreno",
+      "party": "Republican",
+      "chamber": "Senate",
+      "state": "OH",
+      "traded_issuer": "BITCOIN",
+      "ticker": "$BTC",
+      "sector": "N/A",
+      "published": "17:01Yesterday",
+      "traded": "31 Oct2025",
+      "filed_after": "3 days",
+      "owner": "Self",
+      "type": "Sell",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "$109,556.00"
     },
     {
       "politician": "Don Beyer",
@@ -171,40 +205,6 @@
       "size": "15K–50K",
       "value": 32500,
       "price": "$237.49"
-    },
-    {
-      "politician": "Cleo Fields",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "LA",
-      "traded_issuer": "COREWEAVE INC",
-      "ticker": "N/A",
-      "sector": "N/A",
-      "published": "31 Oct2025",
-      "traded": "10 Oct2025",
-      "filed_after": "20 days",
-      "owner": "Undisclosed",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "N/A"
-    },
-    {
-      "politician": "Cleo Fields",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "LA",
-      "traded_issuer": "COREWEAVE INC",
-      "ticker": "N/A",
-      "sector": "N/A",
-      "published": "31 Oct2025",
-      "traded": "9 Oct2025",
-      "filed_after": "21 days",
-      "owner": "Undisclosed",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "N/A"
     }
   ]
 }

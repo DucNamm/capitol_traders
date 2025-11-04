@@ -1,7 +1,41 @@
 {
-  "updated_at": "2025-11-04 02:52:06",
+  "updated_at": "2025-11-04 03:34:53",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Sheldon Whitehouse",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "RI",
+      "traded_issuer": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "sector": "N/A",
+      "published": "20:15Yesterday",
+      "traded": "20 Oct2025",
+      "filed_after": "14 days",
+      "owner": "Self",
+      "type": "Sell",
+      "size": "15K–50K",
+      "value": 32500,
+      "price": "$182.64"
+    },
+    {
+      "politician": "Sheldon Whitehouse",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "RI",
+      "traded_issuer": "The Progressive Corp",
+      "ticker": "PGR",
+      "sector": "N/A",
+      "published": "20:15Yesterday",
+      "traded": "27 Oct2025",
+      "filed_after": "7 days",
+      "owner": "Spouse",
+      "type": "Sell",
+      "size": "15K–50K",
+      "value": 32500,
+      "price": "$216.59"
+    },
     {
       "politician": "Don Beyer",
       "party": "Democrat",
@@ -171,40 +205,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "N/A"
-    },
-    {
-      "politician": "Cleo Fields",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "LA",
-      "traded_issuer": "FIGMA INC",
-      "ticker": "FIG",
-      "sector": "N/A",
-      "published": "31 Oct2025",
-      "traded": "10 Oct2025",
-      "filed_after": "20 days",
-      "owner": "Undisclosed",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$61.06"
-    },
-    {
-      "politician": "Cleo Fields",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "LA",
-      "traded_issuer": "IREN LIMITED",
-      "ticker": "IREN",
-      "sector": "N/A",
-      "published": "31 Oct2025",
-      "traded": "10 Oct2025",
-      "filed_after": "20 days",
-      "owner": "Undisclosed",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$59.77"
     }
   ]
 }

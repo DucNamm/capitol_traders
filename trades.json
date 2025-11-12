@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-11-11 23:58:33",
+  "updated_at": "2025-11-12 01:24:13",
   "total_trades": 12,
   "trades": [
     {
@@ -10,7 +10,7 @@
       "traded_issuer": "McKesson Corp",
       "ticker": "MCK",
       "sector": "N/A",
-      "published": "14:05Today",
+      "published": "14:05Yesterday",
       "traded": "8 Oct2025",
       "filed_after": "33 days",
       "owner": "Undisclosed",
@@ -27,7 +27,7 @@
       "traded_issuer": "Robinhood Markets Inc",
       "ticker": "HOOD",
       "sector": "N/A",
-      "published": "14:05Today",
+      "published": "14:05Yesterday",
       "traded": "8 Oct2025",
       "filed_after": "33 days",
       "owner": "Joint",
@@ -44,7 +44,7 @@
       "traded_issuer": "Shopify Inc",
       "ticker": "SHOP",
       "sector": "N/A",
-      "published": "14:05Today",
+      "published": "14:05Yesterday",
       "traded": "8 Oct2025",
       "filed_after": "33 days",
       "owner": "Undisclosed",
@@ -61,7 +61,7 @@
       "traded_issuer": "Shopify Inc",
       "ticker": "SHOP",
       "sector": "N/A",
-      "published": "14:05Today",
+      "published": "14:05Yesterday",
       "traded": "6 Oct2025",
       "filed_after": "35 days",
       "owner": "Joint",

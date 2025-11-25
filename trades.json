@@ -1,8 +1,25 @@
 {
-  "updated_at": "2025-11-25 08:22:54",
+  "updated_at": "2025-11-25 08:46:22",
   "total_trades": 12,
   "trades": [
     {
+      "politician": "Gary Peters",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "MI",
+      "traded_issuer": "Organon & Co",
+      "ticker": "OGN",
+      "sector": "N/A",
+      "published": "22:30Yesterday",
+      "traded": "7 Oct2025",
+      "filed_after": "48 days",
+      "owner": "Self",
+      "type": "Sell",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "$10.60"
+    },
+    {
       "politician": "Jared Moskowitz",
       "party": "Democrat",
       "chamber": "House",
@@ -187,23 +204,6 @@
       "type": "Buy",
       "size": "1K–15K",
       "value": 8000,
-      "price": "$67.94"
-    },
-    {
-      "politician": "Jared Moskowitz",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "FL",
-      "traded_issuer": "Cisco Systems Inc",
-      "ticker": "CSCO",
-      "sector": "N/A",
-      "published": "14:05Yesterday",
-      "traded": "10 Oct2025",
-      "filed_after": "43 days",
-      "owner": "Undisclosed",
-      "type": "Buy",
-      "size": "15K–50K",
-      "value": 32500,
       "price": "$67.94"
     }
   ]

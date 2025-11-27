@@ -1,7 +1,24 @@
 {
-  "updated_at": "2025-11-27 07:58:56",
+  "updated_at": "2025-11-27 08:28:01",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Tina Smith",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "MN",
+      "traded_issuer": "Huntington Bancshares Inc",
+      "ticker": "HBAN",
+      "sector": "N/A",
+      "published": "07:45Today",
+      "traded": "21 Nov2025",
+      "filed_after": "5 days",
+      "owner": "Spouse",
+      "type": "Sell",
+      "size": "100K–250K",
+      "value": 175000,
+      "price": "$15.88"
+    },
     {
       "politician": "Gary Peters",
       "party": "Democrat",
@@ -171,23 +188,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "$56.66"
-    },
-    {
-      "politician": "Jared Moskowitz",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "FL",
-      "traded_issuer": "Cisco Systems Inc",
-      "ticker": "CSCO",
-      "sector": "N/A",
-      "published": "24 Nov2025",
-      "traded": "10 Oct2025",
-      "filed_after": "43 days",
-      "owner": "Child",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$67.94"
     },
     {
       "politician": "Jared Moskowitz",

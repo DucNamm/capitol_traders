@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-11-27 23:58:05",
+  "updated_at": "2025-11-28 01:18:36",
   "total_trades": 12,
   "trades": [
     {
@@ -10,7 +10,7 @@
       "traded_issuer": "Huntington Bancshares Inc",
       "ticker": "HBAN",
       "sector": "N/A",
-      "published": "07:45Today",
+      "published": "07:45Yesterday",
       "traded": "21 Nov2025",
       "filed_after": "5 days",
       "owner": "Spouse",

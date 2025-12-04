@@ -1,7 +1,24 @@
 {
-  "updated_at": "2025-12-04 19:08:49",
+  "updated_at": "2025-12-04 19:27:52",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Gary Peters",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "MI",
+      "traded_issuer": "Conagra Brands Inc",
+      "ticker": "CAG",
+      "sector": "N/A",
+      "published": "18:15Today",
+      "traded": "14 Nov2025",
+      "filed_after": "20 days",
+      "owner": "Self",
+      "type": "Buy",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "$17.45"
+    },
     {
       "politician": "Shelley Moore Capito",
       "party": "Republican",
@@ -188,23 +205,6 @@
       "size": "15K–50K",
       "value": 32500,
       "price": "$28.50"
-    },
-    {
-      "politician": "Tim Moore",
-      "party": "Republican",
-      "chamber": "House",
-      "state": "NC",
-      "traded_issuer": "HYSTER YALE INC",
-      "ticker": "HY",
-      "sector": "N/A",
-      "published": "14:05Yesterday",
-      "traded": "3 Nov2025",
-      "filed_after": "29 days",
-      "owner": "Undisclosed",
-      "type": "Buy",
-      "size": "50K–100K",
-      "value": 75000,
-      "price": "$35.63"
     }
   ]
 }

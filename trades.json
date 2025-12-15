@@ -1,7 +1,24 @@
 {
-  "updated_at": "2025-12-15 06:55:52",
+  "updated_at": "2025-12-15 07:18:37",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Markwayne Mullin",
+      "party": "Republican",
+      "chamber": "Senate",
+      "state": "OK",
+      "traded_issuer": "CITY OF CORSICANA TEXAS",
+      "ticker": "N/A",
+      "sector": "N/A",
+      "published": "12 Dec2025",
+      "traded": "3 Dec2025",
+      "filed_after": "9 days",
+      "owner": "Joint",
+      "type": "Buy",
+      "size": "50K–100K",
+      "value": 75000,
+      "price": "N/A"
+    },
     {
       "politician": "John Fetterman",
       "party": "Democrat",
@@ -188,23 +205,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "$337.47"
-    },
-    {
-      "politician": "Julie Johnson",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "TX",
-      "traded_issuer": "Air Products and Chemicals Inc",
-      "ticker": "APD",
-      "sector": "N/A",
-      "published": "12 Dec2025",
-      "traded": "13 Nov2025",
-      "filed_after": "28 days",
-      "owner": "Joint",
-      "type": "Sell",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$263.03"
     }
   ]
 }

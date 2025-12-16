@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-15 23:57:22",
+  "updated_at": "2025-12-16 01:18:47",
   "total_trades": 12,
   "trades": [
     {
@@ -10,7 +10,7 @@
       "traded_issuer": "Bank of Montreal",
       "ticker": "BMO",
       "sector": "N/A",
-      "published": "14:05Today",
+      "published": "14:05Yesterday",
       "traded": "13 Nov2025",
       "filed_after": "31 days",
       "owner": "Undisclosed",
@@ -27,7 +27,7 @@
       "traded_issuer": "JP MORGAN CHASE FINANCE LTD",
       "ticker": "N/A",
       "sector": "N/A",
-      "published": "14:05Today",
+      "published": "14:05Yesterday",
       "traded": "13 Nov2025",
       "filed_after": "31 days",
       "owner": "Undisclosed",

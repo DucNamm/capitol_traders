@@ -1,7 +1,41 @@
 {
-  "updated_at": "2025-12-17 14:44:28",
+  "updated_at": "2025-12-17 14:57:56",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Bill Keating",
+      "party": "Democrat",
+      "chamber": "House",
+      "state": "MA",
+      "traded_issuer": "Comcast Corp",
+      "ticker": "CMCSA",
+      "sector": "N/A",
+      "published": "14:05Today",
+      "traded": "5 Dec2025",
+      "filed_after": "11 days",
+      "owner": "Undisclosed",
+      "type": "Sell",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "N/A"
+    },
+    {
+      "politician": "Marjorie Taylor Greene",
+      "party": "Republican",
+      "chamber": "House",
+      "state": "GA",
+      "traded_issuer": "US TREASURY BILLS",
+      "ticker": "N/A",
+      "sector": "N/A",
+      "published": "14:05Today",
+      "traded": "12 Dec2025",
+      "filed_after": "4 days",
+      "owner": "Undisclosed",
+      "type": "Buy",
+      "size": "100K–250K",
+      "value": 175000,
+      "price": "N/A"
+    },
     {
       "politician": "Hal Rogers",
       "party": "Republican",
@@ -171,40 +205,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "$284.28"
-    },
-    {
-      "politician": "Gil Cisneros",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "CA",
-      "traded_issuer": "Alphabet Inc",
-      "ticker": "GOOGL",
-      "sector": "N/A",
-      "published": "14:05Yesterday",
-      "traded": "26 Nov2025",
-      "filed_after": "19 days",
-      "owner": "Undisclosed",
-      "type": "Sell",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$319.95"
-    },
-    {
-      "politician": "Gil Cisneros",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "CA",
-      "traded_issuer": "Amazon.com Inc",
-      "ticker": "AMZN",
-      "sector": "N/A",
-      "published": "14:05Yesterday",
-      "traded": "18 Nov2025",
-      "filed_after": "27 days",
-      "owner": "Undisclosed",
-      "type": "Buy",
-      "size": "15K–50K",
-      "value": 32500,
-      "price": "$222.55"
     }
   ]
 }

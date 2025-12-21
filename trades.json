@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-20 23:58:09",
+  "updated_at": "2025-12-21 01:39:14",
   "total_trades": 12,
   "trades": [
     {
@@ -10,7 +10,7 @@
       "traded_issuer": "Johnson & Johnson",
       "ticker": "JNJ",
       "sector": "N/A",
-      "published": "14:05Yesterday",
+      "published": "19 Dec2025",
       "traded": "20 Nov2025",
       "filed_after": "29 days",
       "owner": "Undisclosed",
@@ -27,7 +27,7 @@
       "traded_issuer": "Stryker Corp",
       "ticker": "SYK",
       "sector": "N/A",
-      "published": "14:05Yesterday",
+      "published": "19 Dec2025",
       "traded": "20 Nov2025",
       "filed_after": "29 days",
       "owner": "Undisclosed",
@@ -44,7 +44,7 @@
       "traded_issuer": "Texas Instruments Inc",
       "ticker": "TXN",
       "sector": "N/A",
-      "published": "14:05Yesterday",
+      "published": "19 Dec2025",
       "traded": "26 Nov2025",
       "filed_after": "23 days",
       "owner": "Undisclosed",

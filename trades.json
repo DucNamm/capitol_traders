@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-01 23:58:00",
+  "updated_at": "2026-01-02 01:25:20",
   "total_trades": 12,
   "trades": [
     {
@@ -10,7 +10,7 @@
       "traded_issuer": "JP MORGAN CHASE FINANCE LTD",
       "ticker": "N/A",
       "sector": "N/A",
-      "published": "14:05Yesterday",
+      "published": "31 Dec2025",
       "traded": "30 Dec2025",
       "filed_after": "0 days",
       "owner": "Undisclosed",
@@ -27,7 +27,7 @@
       "traded_issuer": "Prudential PLC",
       "ticker": "PUK",
       "sector": "N/A",
-      "published": "14:05Yesterday",
+      "published": "31 Dec2025",
       "traded": "29 Dec2025",
       "filed_after": "1 days",
       "owner": "Undisclosed",

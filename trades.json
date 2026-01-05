@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-01-05 07:05:04",
+  "updated_at": "2026-01-05 07:37:23",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Jefferson Shreve",
+      "party": "Republican",
+      "chamber": "House",
+      "state": "IN",
+      "traded_issuer": "JPMorgan Chase & Co",
+      "ticker": "JPM",
+      "sector": "N/A",
+      "published": "2 Jan2026",
+      "traded": "30 Dec2025",
+      "filed_after": "2 days",
+      "owner": "Undisclosed",
+      "type": "Buy",
+      "size": "5M–25M",
+      "value": 15000000,
+      "price": "N/A"
+    },
+    {
+      "politician": "Jefferson Shreve",
+      "party": "Republican",
+      "chamber": "House",
+      "state": "IN",
+      "traded_issuer": "Prudential Financial Inc",
+      "ticker": "PRU",
+      "sector": "N/A",
+      "published": "2 Jan2026",
+      "traded": "29 Dec2025",
+      "filed_after": "3 days",
+      "owner": "Undisclosed",
+      "type": "Buy",
+      "size": "5M–25M",
+      "value": 15000000,
+      "price": "N/A"
+    },
     {
       "politician": "Jefferson Shreve",
       "party": "Republican",
@@ -171,40 +205,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "$117.50"
-    },
-    {
-      "politician": "Sheri Biggs",
-      "party": "Republican",
-      "chamber": "House",
-      "state": "SC",
-      "traded_issuer": "KKR REAL ESTATE SELECT TRUST INC",
-      "ticker": "N/A",
-      "sector": "N/A",
-      "published": "30 Dec2025",
-      "traded": "4 Nov2025",
-      "filed_after": "55 days",
-      "owner": "Spouse",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "N/A"
-    },
-    {
-      "politician": "Sheri Biggs",
-      "party": "Republican",
-      "chamber": "House",
-      "state": "SC",
-      "traded_issuer": "OAKTREE STRATEGIC CREDIT FUND A (CAYMAN) LP",
-      "ticker": "N/A",
-      "sector": "N/A",
-      "published": "30 Dec2025",
-      "traded": "28 Nov2025",
-      "filed_after": "31 days",
-      "owner": "Spouse",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "N/A"
     }
   ]
 }

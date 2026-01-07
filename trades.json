@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-01-07 14:57:13",
+  "updated_at": "2026-01-07 15:19:48",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Zoe Lofgren",
+      "party": "Democrat",
+      "chamber": "House",
+      "state": "CA",
+      "traded_issuer": "CALIFORNIA STATE PUBLIC WORKS BOARD",
+      "ticker": "N/A",
+      "sector": "N/A",
+      "published": "14:05Today",
+      "traded": "11 Dec2025",
+      "filed_after": "26 days",
+      "owner": "Joint",
+      "type": "Sell",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "N/A"
+    },
+    {
+      "politician": "Zoe Lofgren",
+      "party": "Democrat",
+      "chamber": "House",
+      "state": "CA",
+      "traded_issuer": "LYNWOOD UNIFIED SCHOOL DISTRICT",
+      "ticker": "N/A",
+      "sector": "N/A",
+      "published": "14:05Today",
+      "traded": "11 Dec2025",
+      "filed_after": "26 days",
+      "owner": "Joint",
+      "type": "Sell",
+      "size": "100K–250K",
+      "value": 175000,
+      "price": "N/A"
+    },
     {
       "politician": "John Hickenlooper",
       "party": "Democrat",
@@ -171,40 +205,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "$476.39"
-    },
-    {
-      "politician": "Shelley Moore Capito",
-      "party": "Republican",
-      "chamber": "Senate",
-      "state": "WV",
-      "traded_issuer": "Apple Inc",
-      "ticker": "AAPL",
-      "sector": "N/A",
-      "published": "15:00Yesterday",
-      "traded": "16 Dec2025",
-      "filed_after": "21 days",
-      "owner": "Spouse",
-      "type": "Sell",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$274.61"
-    },
-    {
-      "politician": "Shelley Moore Capito",
-      "party": "Republican",
-      "chamber": "Senate",
-      "state": "WV",
-      "traded_issuer": "Alphabet Inc",
-      "ticker": "GOOGL",
-      "sector": "N/A",
-      "published": "15:00Yesterday",
-      "traded": "16 Dec2025",
-      "filed_after": "21 days",
-      "owner": "Spouse",
-      "type": "Sell",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$306.57"
     }
   ]
 }

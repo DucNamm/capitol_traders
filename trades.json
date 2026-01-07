@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-01-07 06:00:23",
+  "updated_at": "2026-01-07 06:39:31",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "John Hickenlooper",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "CO",
+      "traded_issuer": "Formula One Group - The Liberty Media Group",
+      "ticker": "FWONK",
+      "sector": "N/A",
+      "published": "03:00Today",
+      "traded": "10 Dec2025",
+      "filed_after": "27 days",
+      "owner": "Spouse",
+      "type": "Sell",
+      "size": "15K–50K",
+      "value": 32500,
+      "price": "$92.30"
+    },
+    {
+      "politician": "John Hickenlooper",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "CO",
+      "traded_issuer": "Formula One Group - The Liberty Media Group",
+      "ticker": "FWONK",
+      "sector": "N/A",
+      "published": "03:00Today",
+      "traded": "10 Dec2025",
+      "filed_after": "27 days",
+      "owner": "Spouse",
+      "type": "Sell",
+      "size": "50K–100K",
+      "value": 75000,
+      "price": "$92.30"
+    },
     {
       "politician": "John Fetterman",
       "party": "Democrat",
@@ -171,40 +205,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "$306.57"
-    },
-    {
-      "politician": "Lloyd Doggett",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "TX",
-      "traded_issuer": "The Coca-Cola Co",
-      "ticker": "KO",
-      "sector": "N/A",
-      "published": "5 Jan2026",
-      "traded": "15 Dec2025",
-      "filed_after": "18 days",
-      "owner": "Undisclosed",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$70.97"
-    },
-    {
-      "politician": "Lloyd Doggett",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "TX",
-      "traded_issuer": "The Home Depot Inc",
-      "ticker": "HD",
-      "sector": "N/A",
-      "published": "5 Jan2026",
-      "traded": "18 Dec2025",
-      "filed_after": "15 days",
-      "owner": "Undisclosed",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$354.99"
     }
   ]
 }

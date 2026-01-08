@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-01-08 05:13:43",
+  "updated_at": "2026-01-08 05:42:14",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Gary Peters",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "MI",
+      "traded_issuer": "Intel Corp",
+      "ticker": "INTC",
+      "sector": "N/A",
+      "published": "03:00Today",
+      "traded": "12 Dec2025",
+      "filed_after": "26 days",
+      "owner": "Spouse",
+      "type": "Sell",
+      "size": "15K–50K",
+      "value": 32500,
+      "price": "$37.81"
+    },
+    {
+      "politician": "Gary Peters",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "MI",
+      "traded_issuer": "Verizon Communications Inc",
+      "ticker": "VZ",
+      "sector": "N/A",
+      "published": "03:00Today",
+      "traded": "12 Dec2025",
+      "filed_after": "26 days",
+      "owner": "Self",
+      "type": "Buy",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "$40.89"
+    },
     {
       "politician": "Zoe Lofgren",
       "party": "Democrat",
@@ -171,40 +205,6 @@
       "size": "15K–50K",
       "value": 32500,
       "price": "N/A"
-    },
-    {
-      "politician": "Shelley Moore Capito",
-      "party": "Republican",
-      "chamber": "Senate",
-      "state": "WV",
-      "traded_issuer": "Kellogg Co",
-      "ticker": "K",
-      "sector": "N/A",
-      "published": "6 Jan2026",
-      "traded": "11 Dec2025",
-      "filed_after": "26 days",
-      "owner": "Spouse",
-      "type": "Sell",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "N/A"
-    },
-    {
-      "politician": "Shelley Moore Capito",
-      "party": "Republican",
-      "chamber": "Senate",
-      "state": "WV",
-      "traded_issuer": "Microsoft Corp",
-      "ticker": "MSFT",
-      "sector": "N/A",
-      "published": "6 Jan2026",
-      "traded": "16 Dec2025",
-      "filed_after": "21 days",
-      "owner": "Spouse",
-      "type": "Sell",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$476.39"
     }
   ]
 }

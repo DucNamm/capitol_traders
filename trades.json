@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-01-21 14:01:45",
+  "updated_at": "2026-01-21 14:38:52",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "August Pfluger",
+      "party": "Republican",
+      "chamber": "House",
+      "state": "TX",
+      "traded_issuer": "Formula One Group - The Liberty Media Group",
+      "ticker": "FWONK",
+      "sector": "N/A",
+      "published": "14:05Today",
+      "traded": "16 Dec2025",
+      "filed_after": "35 days",
+      "owner": "Child",
+      "type": "Exchange",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "$95.79"
+    },
+    {
+      "politician": "August Pfluger",
+      "party": "Republican",
+      "chamber": "House",
+      "state": "TX",
+      "traded_issuer": "LIBERTY MEDIA LIBERTY LIVE",
+      "ticker": "LLYVK",
+      "sector": "N/A",
+      "published": "14:05Today",
+      "traded": "16 Dec2025",
+      "filed_after": "35 days",
+      "owner": "Child",
+      "type": "Exchange",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "$84.78"
+    },
     {
       "politician": "Gary Peters",
       "party": "Democrat",
@@ -170,40 +204,6 @@
       "type": "Sell",
       "size": "1K–15K",
       "value": 8000,
-      "price": "$148.61"
-    },
-    {
-      "politician": "Jared Moskowitz",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "FL",
-      "traded_issuer": "PepsiCo Inc",
-      "ticker": "PEP",
-      "sector": "N/A",
-      "published": "19 Jan2026",
-      "traded": "2 Dec2025",
-      "filed_after": "45 days",
-      "owner": "Child",
-      "type": "Sell",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$148.61"
-    },
-    {
-      "politician": "Jared Moskowitz",
-      "party": "Democrat",
-      "chamber": "House",
-      "state": "FL",
-      "traded_issuer": "PepsiCo Inc",
-      "ticker": "PEP",
-      "sector": "N/A",
-      "published": "19 Jan2026",
-      "traded": "2 Dec2025",
-      "filed_after": "45 days",
-      "owner": "Undisclosed",
-      "type": "Sell",
-      "size": "15K–50K",
-      "value": 32500,
       "price": "$148.61"
     }
   ]

@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-01-23 14:22:02",
+  "updated_at": "2026-01-23 14:47:23",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Kevin Hern",
+      "party": "Republican",
+      "chamber": "House",
+      "state": "OK",
+      "traded_issuer": "Unitedhealth Group Inc",
+      "ticker": "UNH",
+      "sector": "N/A",
+      "published": "14:01Today",
+      "traded": "23 Dec2025",
+      "filed_after": "30 days",
+      "owner": "Joint",
+      "type": "Sell",
+      "size": "250K–500K",
+      "value": 375000,
+      "price": "$324.80"
+    },
     {
       "politician": "David Taylor",
       "party": "Republican",
@@ -187,23 +204,6 @@
       "type": "Sell",
       "size": "15K–50K",
       "value": 32500,
-      "price": "N/A"
-    },
-    {
-      "politician": "Richard Blumenthal",
-      "party": "Democrat",
-      "chamber": "Senate",
-      "state": "CT",
-      "traded_issuer": "MH BUILT TO LAST LLC",
-      "ticker": "N/A",
-      "sector": "N/A",
-      "published": "21 Jan2026",
-      "traded": "2 Jan2026",
-      "filed_after": "18 days",
-      "owner": "Spouse",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
       "price": "N/A"
     }
   ]

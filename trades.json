@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-01-27 14:40:14",
+  "updated_at": "2026-01-27 15:02:22",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Steve Cohen",
+      "party": "Democrat",
+      "chamber": "House",
+      "state": "TN",
+      "traded_issuer": "Fluor Corp",
+      "ticker": "FLR",
+      "sector": "N/A",
+      "published": "14:05Today",
+      "traded": "29 Dec2025",
+      "filed_after": "28 days",
+      "owner": "Undisclosed",
+      "type": "Sell",
+      "size": "15K–50K",
+      "value": 32500,
+      "price": "$40.40"
+    },
+    {
+      "politician": "Steve Cohen",
+      "party": "Democrat",
+      "chamber": "House",
+      "state": "TN",
+      "traded_issuer": "Northrop Grumman Corp",
+      "ticker": "NOC",
+      "sector": "N/A",
+      "published": "14:05Today",
+      "traded": "29 Dec2025",
+      "filed_after": "28 days",
+      "owner": "Undisclosed",
+      "type": "Sell",
+      "size": "15K–50K",
+      "value": 32500,
+      "price": "$577.78"
+    },
     {
       "politician": "Katie Britt",
       "party": "Republican",
@@ -171,40 +205,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "$587.06"
-    },
-    {
-      "politician": "Katie Britt",
-      "party": "Republican",
-      "chamber": "Senate",
-      "state": "AL",
-      "traded_issuer": "NVIDIA Corporation",
-      "ticker": "NVDA",
-      "sector": "N/A",
-      "published": "03:00Today",
-      "traded": "14 Apr2025",
-      "filed_after": "287 days",
-      "owner": "Spouse",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$110.71"
-    },
-    {
-      "politician": "Katie Britt",
-      "party": "Republican",
-      "chamber": "Senate",
-      "state": "AL",
-      "traded_issuer": "Amazon.com Inc",
-      "ticker": "AMZN",
-      "sector": "N/A",
-      "published": "03:00Today",
-      "traded": "30 Apr2025",
-      "filed_after": "271 days",
-      "owner": "Spouse",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$184.42"
     }
   ]
 }

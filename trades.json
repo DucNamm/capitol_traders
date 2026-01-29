@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-01-29 15:02:26",
+  "updated_at": "2026-01-29 15:45:43",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Dale Strong",
+      "party": "Republican",
+      "chamber": "House",
+      "state": "AL",
+      "traded_issuer": "IREN LIMITED",
+      "ticker": "IREN",
+      "sector": "N/A",
+      "published": "14:05Today",
+      "traded": "00:00Yesterday",
+      "filed_after": "0 days",
+      "owner": "Joint",
+      "type": "Buy",
+      "size": "1K–15K",
+      "value": 8000,
+      "price": "$62.94"
+    },
     {
       "politician": "Steve Cohen",
       "party": "Democrat",
@@ -188,23 +205,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "$387.81"
-    },
-    {
-      "politician": "Katie Britt",
-      "party": "Republican",
-      "chamber": "Senate",
-      "state": "AL",
-      "traded_issuer": "Unitedhealth Group Inc",
-      "ticker": "UNH",
-      "sector": "N/A",
-      "published": "27 Jan2026",
-      "traded": "14 Apr2025",
-      "filed_after": "287 days",
-      "owner": "Spouse",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$587.06"
     }
   ]
 }

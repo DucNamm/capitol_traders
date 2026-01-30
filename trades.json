@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-30 00:00:57",
+  "updated_at": "2026-01-30 02:32:19",
   "total_trades": 12,
   "trades": [
     {
@@ -10,8 +10,8 @@
       "traded_issuer": "IREN LIMITED",
       "ticker": "IREN",
       "sector": "N/A",
-      "published": "14:05Today",
-      "traded": "00:00Yesterday",
+      "published": "14:05Yesterday",
+      "traded": "28 Jan2026",
       "filed_after": "0 days",
       "owner": "Joint",
       "type": "Buy",

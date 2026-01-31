@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-01-31 08:31:06",
+  "updated_at": "2026-01-31 08:55:37",
   "total_trades": 12,
   "trades": [
+    {
+      "politician": "Tina Smith",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "MN",
+      "traded_issuer": "Berkshire Hathaway Inc",
+      "ticker": "BRK/B",
+      "sector": "N/A",
+      "published": "18:00Yesterday",
+      "traded": "27 Jan2026",
+      "filed_after": "3 days",
+      "owner": "Spouse",
+      "type": "Sell",
+      "size": "100K–250K",
+      "value": 175000,
+      "price": "$474.67"
+    },
+    {
+      "politician": "Tina Smith",
+      "party": "Democrat",
+      "chamber": "Senate",
+      "state": "MN",
+      "traded_issuer": "Marsh & McLennan Companies Inc",
+      "ticker": "MRSH",
+      "sector": "N/A",
+      "published": "18:00Yesterday",
+      "traded": "27 Jan2026",
+      "filed_after": "3 days",
+      "owner": "Spouse",
+      "type": "Sell",
+      "size": "50K–100K",
+      "value": 75000,
+      "price": "$179.18"
+    },
     {
       "politician": "Max Miller",
       "party": "Republican",
@@ -171,40 +205,6 @@
       "size": "1K–15K",
       "value": 8000,
       "price": "$107.64"
-    },
-    {
-      "politician": "Katie Britt",
-      "party": "Republican",
-      "chamber": "Senate",
-      "state": "AL",
-      "traded_issuer": "Apple Inc",
-      "ticker": "AAPL",
-      "sector": "N/A",
-      "published": "27 Jan2026",
-      "traded": "14 Apr2025",
-      "filed_after": "287 days",
-      "owner": "Spouse",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$202.52"
-    },
-    {
-      "politician": "Katie Britt",
-      "party": "Republican",
-      "chamber": "Senate",
-      "state": "AL",
-      "traded_issuer": "Amazon.com Inc",
-      "ticker": "AMZN",
-      "sector": "N/A",
-      "published": "27 Jan2026",
-      "traded": "14 Apr2025",
-      "filed_after": "287 days",
-      "owner": "Spouse",
-      "type": "Buy",
-      "size": "1K–15K",
-      "value": 8000,
-      "price": "$182.12"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-31 00:00:47",
+  "updated_at": "2026-01-31 02:26:17",
   "total_trades": 12,
   "trades": [
     {
@@ -10,7 +10,7 @@
       "traded_issuer": "ALPINE INVESTORS IX LP",
       "ticker": "N/A",
       "sector": "N/A",
-      "published": "14:05Today",
+      "published": "14:05Yesterday",
       "traded": "7 Jan2026",
       "filed_after": "22 days",
       "owner": "Undisclosed",
@@ -27,7 +27,7 @@
       "traded_issuer": "GLASFUNDS LP",
       "ticker": "N/A",
       "sector": "N/A",
-      "published": "14:05Today",
+      "published": "14:05Yesterday",
       "traded": "7 Jan2026",
       "filed_after": "22 days",
       "owner": "Undisclosed",
@@ -44,7 +44,7 @@
       "traded_issuer": "JPMorgan Chase & Co",
       "ticker": "JPM",
       "sector": "N/A",
-      "published": "17:01Yesterday",
+      "published": "29 Jan2026",
       "traded": "28 Jan2026",
       "filed_after": "1 days",
       "owner": "Spouse",
@@ -61,7 +61,7 @@
       "traded_issuer": "IREN LIMITED",
       "ticker": "IREN",
       "sector": "N/A",
-      "published": "14:05Yesterday",
+      "published": "29 Jan2026",
       "traded": "28 Jan2026",
       "filed_after": "0 days",
       "owner": "Joint",

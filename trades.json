@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-31 23:59:03",
+  "updated_at": "2026-02-01 02:27:42",
   "total_trades": 12,
   "trades": [
     {
@@ -10,7 +10,7 @@
       "traded_issuer": "Berkshire Hathaway Inc",
       "ticker": "BRK/B",
       "sector": "N/A",
-      "published": "18:00Yesterday",
+      "published": "30 Jan2026",
       "traded": "27 Jan2026",
       "filed_after": "3 days",
       "owner": "Spouse",
@@ -27,7 +27,7 @@
       "traded_issuer": "Marsh & McLennan Companies Inc",
       "ticker": "MRSH",
       "sector": "N/A",
-      "published": "18:00Yesterday",
+      "published": "30 Jan2026",
       "traded": "27 Jan2026",
       "filed_after": "3 days",
       "owner": "Spouse",
@@ -44,7 +44,7 @@
       "traded_issuer": "ALPINE INVESTORS IX LP",
       "ticker": "N/A",
       "sector": "N/A",
-      "published": "14:05Yesterday",
+      "published": "30 Jan2026",
       "traded": "7 Jan2026",
       "filed_after": "22 days",
       "owner": "Undisclosed",
@@ -61,7 +61,7 @@
       "traded_issuer": "GLASFUNDS LP",
       "ticker": "N/A",
       "sector": "N/A",
-      "published": "14:05Yesterday",
+      "published": "30 Jan2026",
       "traded": "7 Jan2026",
       "filed_after": "22 days",
       "owner": "Undisclosed",
